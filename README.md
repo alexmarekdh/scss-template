@@ -1,6 +1,6 @@
 # Best practice template for coding with sass. 
 
-* Using rems, mixins for breakpoints, js free modal, bem and more
+* Using rems, mixins for breakpoints, js free modal, bem, proper component breakdown and more
 * work in progress, gets updated regularly
 
 To run:
