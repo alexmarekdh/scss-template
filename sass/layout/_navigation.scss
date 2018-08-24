@@ -5,8 +5,8 @@
 
     &__button {
         color: $color-white;
-        height: 7rem;
-        width: 7rem;
+        height: 6rem;
+        width: 6rem;
         text-align: center;
         position: fixed;
         top: 6rem;
@@ -17,8 +17,8 @@
         cursor: pointer;
 
         @include respond(tab-port){
-            top: 4rem;
-            right: 4rem;
+            top: 4.5rem;
+            right: 4.5rem;
         }
     }
 
@@ -27,8 +27,8 @@
         width: 6rem;
         border-radius: 50%;
         position : fixed;
-        top: 6.5rem;
-        right: 6.5rem;
+        top: 6rem;
+        right: 6rem;
         background-image: radial-gradient($color-primary, $color-secondary);
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -55,10 +55,6 @@
         list-style: none;
         text-align: center;
         width: 100%;
-    }
-
-    &__item {
-
     }
 
     &__link {
@@ -99,7 +95,7 @@
     //Icon 
     &__icon {
         position: relative;
-        margin-top: 3.5rem;
+        margin-top: 3rem;
 
         &,
         &::before,
